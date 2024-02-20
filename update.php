@@ -98,10 +98,7 @@ if ( $stmt->execute() ) {
 ?>
 
 <META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost:7882/qna.php">
-<?php
-else
-{
-	echo "Failed To Update Record";
+<!-- <?php
+
 }
-}
-?>
+?> -->

@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 define("HOST", "127.0.0.1");
 define("DB_NAME", "chatbot");
-define("DB_USER", "gazelle");
-define("PASS", "nunyabiz");
+define("DB_USER", "root");
+define("PASS", "");
 
 $host = HOST;
 $db_name = DB_NAME;
