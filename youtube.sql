@@ -38,8 +38,9 @@ CREATE TABLE `chatbot_hints` (
 --
 
 INSERT INTO `chatbot_hints` (`id`, `question`, `reply`) VALUES
+(1, 'how are you', 'Am good and you?'),
 (2, 'How are you ?', 'I am not good. How can I help you?'),
-(3, 'what is your name||whats your name||who are you', 'My name is Aresa.'),
+(3, 'what is you name||whats your name||who are you', 'My name is Aresa.'),
 (4, 'what should I call you', 'You can call me by my name Aresa.'),
 (5, 'Where are your from', 'I have been developed under custody of Aarav. I dont belong to any country or place.'),
 (6, 'Bye||See you later||Have a Good Day||tata', 'Sad to see you are going. Have a nice day'),
@@ -90,7 +91,7 @@ CREATE TABLE `message` (
 INSERT INTO `message` (`id`, `message`, `added_on`, `type`) VALUES
 (130, 'I am good. How can I help you?', '2020-10-13 07:35:40', 'bot'),
 (131, 'hi', '2020-10-13 07:37:13', 'user'),
-(132, 'Sorry not be able to understand you', '2020-10-13 07:37:13', 'bot'),
+(132, 'hi, how are you', '2020-10-13 07:37:13', 'bot'),
 (133, 'hi', '2020-10-13 07:37:53', 'user'),
 (134, 'Sorry not be able to understand you', '2020-10-13 07:37:54', 'bot'),
 (135, 'hi', '2020-10-13 07:38:10', 'user'),

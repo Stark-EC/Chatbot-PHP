@@ -11,7 +11,7 @@
 	<icon>
 		
 	</icon>
-	<h1>AR<span>ESA<span>BOT</span></span></h1>
+	<h1>UNIMA<span><span> AI MODEL</span></span></h1>
 	<nav>
 		<ul>
 			

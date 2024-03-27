@@ -7,7 +7,7 @@
 	<!--<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">-->
 </head>
 <header>
-	<h1>AR<span>ESA<span>BOT</span></span></h1>
+<h1>UNIMA<span><span> AI MODEL</span></span></h1>
 	<nav>
 		<ul>
 			

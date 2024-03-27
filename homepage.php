@@ -11,7 +11,7 @@ require_once 'dbconfig/config.php';
 	<br>
       <meta charset="utf-8">
       <meta name="robots" content="noindex, nofollow">
-      <title>Aresa Chatbot</title>
+      <title>UNIMA NAVIGATION | AI MODEL</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	  <link href="style.css" rel="stylesheet">
@@ -131,7 +131,7 @@ body
 
 
 
-						var html='<li class="messages-you clearfix"><span class="message-img"><img src="image/bot_avatar.png" class="avatar-sm rounded-circle"></span><div class="message-body clearfix"><div class="message-header"><strong class="messages-title">Chatbot</strong> <small class="time-messages text-muted"><span class="fas fa-time"></span> <span class="minutes">'+getCurrentTime()+'</span></small> </div><p class="messages-p">'+result+'</p></div></li><a href="invalidans.php" id="invalid_btn"><i>Invalid Answer ?</i></a>';
+						var html='<li class="messages-you clearfix"><span class="message-img"><img src="image/bot_avatar.png" class="avatar-sm rounded-circle"></span><div class="message-body clearfix"><div class="message-header"><strong class="messages-title">UNIMA</strong> <small class="time-messages text-muted"><span class="fas fa-time"></span> <span class="minutes">'+getCurrentTime()+'</span></small> </div><p class="messages-p">'+result+'</p></div></li><a href="invalidans.php" id="invalid_btn"><i>Invalid Answer ?</i></a>';
 						
 						jQuery('.messages-list').append(html);
 						jQuery('.messages-box').scrollTop(jQuery('.messages-box')[0].scrollHeight);
